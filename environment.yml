@@ -1,0 +1,15 @@
+name: dca
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - black
+  - ruff
+  - pre-commit
+  - pip
+  - pip:
+      - commitizen
+  # runtime dependencies
+  - pandas
+  - numpy
+  - polars

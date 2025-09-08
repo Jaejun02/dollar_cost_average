@@ -1,0 +1,20 @@
+repos:
+  # --- Code formatting ---
+  - repo: https://github.com/psf/black
+    rev: 24.8.0
+    hooks:
+      - id: black
+
+  # --- Linting and import sorting ---
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.4
+    hooks:
+      - id: ruff
+        args: [--fix]
+
+  # --- Commit message linting (Conventional Commits) ---
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v3.30.1
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]
