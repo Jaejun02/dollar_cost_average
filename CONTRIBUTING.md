@@ -16,6 +16,8 @@ Branches should clearly indicate their purpose. Use **lowercase with hyphens** a
   *e.g.* `chore/upgrade-dependencies`
 * `docs/<short-description>` – for documentation updates
   *e.g.* `docs/update-readme`
+* `experiment/<short-description>` – for exploratory or research branches, used to test ideas, prototypes, or trial methods
+  *e.g.* `experiment/return-distribution-bootstrap`, `experiment/calendar-alignment`
 
 💡 Keep branch names short and descriptive. If tied to an issue, include the issue number.
 
